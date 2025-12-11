@@ -1,0 +1,147 @@
+{
+  "Navbar": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "contact": "Kontakt",
+    "slogan": "VON VISION ZUR REALITÄT",
+    "offer": "Angebot Abrufen"
+  },
+  "Hero": {
+    "badge": "Die Zukunft kodieren",
+    "title1": "Ihre Träume",
+    "title2": "In Realität umwandeln",
+    "desc": "Als Technomay produzieren wir skalierbare digitale Lösungen für Ihr Unternehmen mit den neuesten Technologien.",
+    "btn_primary": "Projekt Starten",
+    "btn_secondary": "Lernen Sie Uns Kennen"
+  },
+  "About": {
+    "badge": "Wer sind wir?",
+    "title_part1": "Reise von",
+    "title_part2": "Vision zur Realität",
+    "description": "Technomay zielt darauf ab, durch Konzentration auf aktuelle und zukünftige Technologien im Bereich F&E und P&D Mehrwert auf nationaler Ebene zu schaffen. Es zielt darauf ab, Lösungen anzubieten, die das tägliche Leben auf globaler Ebene durch die Projekte, die es entwickelt, und seinen innovativen Produktionsansatz erleichtern.",
+    "list_1": "Experten-Ingenieursstab",
+    "list_2": "100% Kundenzufriedenheit",
+    "list_3": "Agiles Projektmanagement",
+    "list_4": "Pünktliche und vollständige Lieferung",
+    "list_5": "24/7 technischer Support & Wartung",
+    "list_6": "Industrie 4.0 Standards",
+    "vision_title": "Unsere Vision",
+    "vision_desc": "Ein weltweit anerkanntes F&E-Unternehmen zu sein; wirksame und nachhaltige Lösungen weltweit anzubieten, indem wir zukünftige Technologien heute zum Leben erwecken.",
+    "mission_title": "Unsere Mission",
+    "mission_desc": "Wir streben danach, nachhaltige Lösungen zu entwickeln, indem wir unseren Kunden im Bereich Innovation und Technologie erstklassigen Service bieten.",
+    "image_badge_title": "F&E-Zentrum",
+    "image_badge_loc": "Ankara, Türkei"
+  },
+  "Features": {
+    "title": "Was bieten wir an?",
+    "subtitle": "Wir verbinden Technologie mit Kunst und entwickeln moderne Lösungen, die Ihr Geschäft bereichern.",
+    "items": {
+      "item1_title": "Innovative F&E",
+      "item1_desc": "Wir bringen zukünftige Technologien heute zum Leben und machen einen Unterschied durch kontinuierliche Entwicklung.",
+      "item2_title": "Mehrwert auf nationaler Ebene",
+      "item2_desc": "Wir reduzieren die Auslandsverschuldung, indem wir das Ökosystem durch heimische Produktion und Innovation stärken.",
+      "item3_title": "Globale Vision",
+      "item3_desc": "Wir konkurrieren auf dem Weltmarkt, indem wir weltklasse-Lösungen produzieren.",
+      "item4_title": "Nachhaltige Lösungen",
+      "item4_desc": "Wir entwickeln umweltfreundliche, langfristige Technologien, die die Effizienz erhöhen.",
+      "item5_title": "Zuverlässigkeit & Qualität",
+      "item5_desc": "Wir bauen Vertrauen durch transparente Prozesse und internationale Qualitätsstandards auf.",
+      "item6_title": "Innovative Projekte",
+      "item6_desc": "Kreative und lösungsorientierte Projekte, die auf Benutzererfahrung konzentriert sind."
+    }
+  },
+  "Partners": {
+    "title": "STARKE KOOPERATIONEN & REFERENZEN"
+  },
+  "Footer": {
+    "summary": "Mit Fokus auf zukünftige Technologien in F&E und P&D entwickeln wir Mehrwert auf nationaler und globaler Ebene.",
+    "address_title": "Ankara Technologiezentrum",
+    "col_corporate": "Unternehmens",
+    "col_legal": "Rechtlich",
+    "col_follow": "Folgen Sie uns",
+    "link_home": "Startseite",
+    "link_about": "Über Uns",
+    "link_services": "Dienstleistungen",
+    "link_career": "Karriere",
+    "link_contact": "Kontakt",
+    "link_kvkk": "DSGVO Klarstellung",
+    "link_terms": "Nutzungsbedingungen",
+    "link_privacy": "Datenschutzrichtlinie",
+    "rights": "Alle Rechte vorbehalten.",
+    "coded_by": "Design und Kodierung:"
+  },
+  "AboutPage": {
+    "title": "Über Uns",
+    "description": "Wir prägen die Zukunft der Technologie.",
+    "missionVision": "Mission & Vision",
+    "misionVisionDesc": "Als Technomay produzieren wir nachhaltige digitale Lösungen.",
+    "vision": "Vision",
+    "visionDesc": "Ein weltweit anerkannter F&E-Partner zu sein.",
+    "mission": "Mission",
+    "missionDesc": "Wir streben danach, nachhaltige Lösungen zu entwickeln."
+  },
+  "ServicesPage": {
+    "title": "Unsere Dienstleistungen",
+    "description": "Wir begleiten Ihre technologische Transformation.",
+    "services": [
+      {"title": "Web- und Softwareentwicklung", "desc": "Wir entwickeln hochperformante Webanwendungen."},
+      {"title": "Mobilanwendung", "desc": "Wir entwerfen native und plattformübergreifende Mobil-Apps."},
+      {"title": "Cloud-Lösungen", "desc": "Wir modernisieren Ihre Systeme auf Cloud-Infrastrukturen."},
+      {"title": "Künstliche Intelligenz & ML", "desc": "Wir trainieren Machine-Learning- und KI-Modelle."},
+      {"title": "Cybersicherheit", "desc": "Wir führen Sicherheitsprüfungen durch."},
+      {"title": "IoT-Systeme", "desc": "Wir verbinden Ihre Geräte mit IoT-Technologie."}
+    ]
+  },
+  "CareerPage": {
+    "title": "Karriere",
+    "description": "Seien Sie Teil unseres Teams.",
+    "openPositions": "Offene Positionen",
+    "notFound": "Haben Sie nicht die Position gefunden?",
+    "notFoundDesc": "Sie können uns Ihren Lebenslauf senden.",
+    "sendCV": "Lebenslauf senden",
+    "apply": "Bewerben"
+  },
+  "ContactPage": {
+    "title": "Kontakt",
+    "description": "Wir freuen uns auf Sie.",
+    "getInTouch": "Kontaktieren Sie Uns",
+    "description2": "Sie können uns über die folgenden Kanäle erreichen.",
+    "address": "Büroadresse",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "contactForm": "Kontaktformular",
+    "name": "Ihr Name",
+    "namePlaceholder": "Geben Sie Ihren Namen ein",
+    "emailPlaceholder": "ihre.email@example.com",
+    "subject": "Betreff",
+    "subjectPlaceholder": "Worum geht es?",
+    "message": "Nachricht",
+    "messagePlaceholder": "Ihre Nachricht...",
+    "send": "Senden"
+  },
+  "LegalPages": {
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "description": "Ihre Datensicherheit ist uns wichtig.",
+      "content": "Technomay verpflichtet sich zur Datenschutz.",
+      "cookies": "Cookies",
+      "cookiesDesc": "Cookies werden verwendet, um Ihr Erlebnis zu verbessern."
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "description": "Bitte lesen Sie vor der Nutzung.",
+      "content": "Durch den Besuch akzeptieren Sie die Nutzungsbedingungen.",
+      "copyright": "Urheberrecht",
+      "copyrightDesc": "Alle Inhalte gehören Technomay."
+    },
+    "kvkk": {
+      "title": "DSGVO-Klarstellungstext",
+      "description": "Der Schutz Ihrer Daten hat Priorität.",
+      "content": "Als Technomay verarbeiten wir Ihre persönlichen Daten gemäß dem Datenschutzgesetz Nr. 6698 (\"DSGVO\") als Verantwortlicher für die nachstehend beschriebenen Zwecke.",
+      "dataController": "Verantwortliche Stelle",
+      "dataControllerDesc": "Wir verarbeiten Ihre Daten rechtmäßig.",
+      "processingPurpose": "Zweck der Datenverarbeitung",
+      "processingPurposeDesc": "Ihre Daten werden für Dienstleistungen verarbeitet."
+    }
+  }
+}

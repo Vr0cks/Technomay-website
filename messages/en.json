@@ -1,0 +1,147 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact",
+    "slogan": "FROM VISION TO REALITY",
+    "offer": "Get Quote"
+  },
+  "Hero": {
+    "badge": "Coding the Future",
+    "title1": "Turn Your Dreams",
+    "title2": "Into Reality",
+    "desc": "As Technomay, we produce scalable digital solutions for your business using the latest technologies.",
+    "btn_primary": "Start Project",
+    "btn_secondary": "Get to Know Us"
+  },
+  "About": {
+    "badge": "Who We Are?",
+    "title_part1": "Journey From",
+    "title_part2": "Vision to Reality",
+    "description": "Technomay aims to create national added value by focusing on current and future technologies in R&D and P&D fields. It aims to offer solutions that facilitate daily life on a global scale with the projects it develops and its innovative production approach.",
+    "list_1": "Expert Engineering Staff",
+    "list_2": "100% Customer Satisfaction",
+    "list_3": "Agile Project Management",
+    "list_4": "Timely and Complete Delivery",
+    "list_5": "24/7 Technical Support & Maintenance",
+    "list_6": "Industry 4.0 Standards",
+    "vision_title": "Our Vision",
+    "vision_desc": "To be a globally recognized R&D company; to offer effective and sustainable solutions worldwide by bringing future technologies to life today.",
+    "mission_title": "Our Mission",
+    "mission_desc": "We aim to produce sustainable solutions by providing top-level service to our customers in the field of innovation and technology.",
+    "image_badge_title": "R&D Center",
+    "image_badge_loc": "Ankara, Turkey"
+  },
+  "Features": {
+    "title": "What We Offer?",
+    "subtitle": "We combine technology with art and produce modern solutions that add value to your business.",
+    "items": {
+      "item1_title": "Innovative R&D",
+      "item1_desc": "We bring future technologies to life today and make a difference with continuous development.",
+      "item2_title": "National Added Value",
+      "item2_desc": "We reduce foreign dependency by empowering the ecosystem with domestic production and innovation.",
+      "item3_title": "Global Vision",
+      "item3_desc": "We compete in the global market by producing world-class solutions.",
+      "item4_title": "Sustainable Solutions",
+      "item4_desc": "We develop environmentally sensitive, long-term technologies that increase efficiency.",
+      "item5_title": "Reliability & Quality",
+      "item5_desc": "We build trust with transparent processes and international quality standards.",
+      "item6_title": "Innovative Projects",
+      "item6_desc": "Creative and solution-oriented projects that center on user experience."
+    }
+  },
+  "Partners": {
+    "title": "STRONG COLLABORATIONS & REFERENCES"
+  },
+  "Footer": {
+    "summary": "Focusing on future technologies in R&D and P&D, we produce added value on a national and global scale.",
+    "address_title": "Ankara Technology Center",
+    "col_corporate": "Corporate",
+    "col_legal": "Legal",
+    "col_follow": "Follow Us",
+    "link_home": "Home",
+    "link_about": "About Us",
+    "link_services": "Services",
+    "link_career": "Career",
+    "link_contact": "Contact",
+    "link_kvkk": "GDPR Clarification",
+    "link_terms": "Terms of Use",
+    "link_privacy": "Privacy Policy",
+    "rights": "All Rights Reserved.",
+    "coded_by": "Design and Coding:"
+  },
+  "AboutPage": {
+    "title": "About Us",
+    "description": "We are shaping the future of technology.",
+    "missionVision": "Mission & Vision",
+    "missionVisionDesc": "As Technomay, we produce sustainable digital solutions based on innovation and excellence.",
+    "vision": "Vision",
+    "visionDesc": "To be a globally recognized R&D partner that creates sustainable value through innovation.",
+    "mission": "Mission",
+    "missionDesc": "We aim to produce sustainable solutions by providing top-level service to our customers."
+  },
+  "ServicesPage": {
+    "title": "Our Services",
+    "description": "We guide your technological transformation and produce end-to-end digital solutions.",
+    "services": [
+      {"title": "Web and Software Development", "desc": "We develop high-performance and scalable web applications."},
+      {"title": "Mobile Application", "desc": "We design native and cross-platform mobile applications."},
+      {"title": "Cloud Solutions", "desc": "We modernize your systems on AWS, Azure and Google Cloud."},
+      {"title": "Artificial Intelligence & ML", "desc": "We train machine learning and AI models."},
+      {"title": "Cyber Security", "desc": "We conduct penetration tests and security audits."},
+      {"title": "IoT Systems", "desc": "We connect your devices with IoT technology."}
+    ]
+  },
+  "CareerPage": {
+    "title": "Career",
+    "description": "Be part of our team that shapes the future.",
+    "openPositions": "Open Positions",
+    "notFound": "Didn't find the position you were looking for?",
+    "notFoundDesc": "You can send your CV to us anytime.",
+    "sendCV": "Send CV",
+    "apply": "Apply"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "We look forward to hearing from you.",
+    "getInTouch": "Get In Touch",
+    "description2": "You can use the contact channels below for your questions.",
+    "address": "Office Address",
+    "email": "Email",
+    "phone": "Phone",
+    "contactForm": "Contact Form",
+    "name": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "your.email@example.com",
+    "subject": "Subject",
+    "subjectPlaceholder": "What is this about?",
+    "message": "Message",
+    "messagePlaceholder": "Your message...",
+    "send": "Send"
+  },
+  "LegalPages": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Your data security and privacy are important to us.",
+      "content": "Technomay is committed to protecting user privacy.",
+      "cookies": "Cookies",
+      "cookiesDesc": "Cookies are used on our site to improve your experience."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "description": "Please read before using our site.",
+      "content": "By visiting this website, you accept the following terms of use.",
+      "copyright": "Copyright",
+      "copyrightDesc": "All content on the site belongs to Technomay."
+    },
+    "kvkk": {
+      "title": "GDPR Clarification Text",
+      "description": "Protection of your personal data is our priority.",
+      "content": "As Technomay, in accordance with the Personal Data Protection Law No. 6698 (\"GDPR\"), we process your personal data as the data controller for the purposes described below.",
+      "dataController": "Data Controller",
+      "dataControllerDesc": "Our company processes your personal data lawfully.",
+      "processingPurpose": "Purpose of Personal Data Processing",
+      "processingPurposeDesc": "Your data is processed for service provision and customer satisfaction."
+    }
+  }
+}

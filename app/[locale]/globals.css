@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    /* Açık mod: Zemin BEYAZ, Yazı KOYU */
+    /* Koyu mod: Zemin LACİVERT, Yazı BEYAZ */
+    @apply bg-white text-slate-900 dark:bg-slate-950 dark:text-white transition-colors duration-300;
+  }
+}
+
+/* YUMUŞAK GEÇİŞ */
+* {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-duration: 300ms;
+}
+
+/* Kayan Yazı Animasyonu */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}

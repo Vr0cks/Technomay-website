@@ -1,0 +1,165 @@
+{
+  "Navbar": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "slogan": "VİZYONDAN GERÇEĞE",
+    "offer": "Teklif Al"
+  },
+  "Hero": {
+    "badge": "Geleceği Kodluyoruz",
+    "title1": "Hayallerinizi",
+    "title2": "Gerçeğe Dönüştürün",
+    "desc": "Technomay olarak, en son teknolojileri kullanarak işletmeniz için ölçeklenebilir dijital çözümler üretiyoruz.",
+    "btn_primary": "Projeye Başla",
+    "btn_secondary": "Bizi Tanıyın"
+  },
+  "About": {
+    "badge": "Biz Kimiz?",
+    "title_part1": "Vizyon'dan",
+    "title_part2": "Gerçeğe Yolculuk",
+    "description": "Technomay, AR-GE ve ÜR-GE alanlarında güncel ve gelecek teknolojilerine odaklanarak ulusal katma değer yaratmayı hedeflemektedir. Geliştirdiği projeler ve yenilikçi üretim yaklaşımıyla küresel ölçekte günlük hayatı kolaylaştıran çözümler sunmayı amaçlamaktadır.",
+    "list_1": "Uzman Mühendislik Kadrosu",
+    "list_2": "%100 Müşteri Memnuniyeti",
+    "list_3": "Çevik Proje Yönetimi",
+    "list_4": "Zamanında ve Eksiksiz Teslimat",
+    "list_5": "24/7 Teknik Destek & Bakım",
+    "list_6": "Endüstri 4.0 Standartları",
+    "vision_title": "Vizyonumuz",
+    "vision_desc": "Küresel ölçekte tanınan bir AR-GE şirketi olmak; gelecek teknolojilerini bugün hayata geçirerek, dünya çapında etkili ve sürdürülebilir çözümler sunmak.",
+    "mission_title": "Misyonumuz",
+    "mission_desc": "İnovasyon ve teknoloji alanında müşterilerimize en üst düzey hizmet sağlayarak sürdürülebilir çözümler üretmeyi amaçlıyoruz.",
+    "image_badge_title": "AR-GE Merkezi",
+    "image_badge_loc": "Ankara, Türkiye"
+  },
+  "Features": {
+    "title": "Neler Sunuyoruz?",
+    "subtitle": "Teknolojiyi sanatla birleştirerek işinize değer katan modern çözümler üretiyoruz.",
+    "items": {
+      "item1_title": "Yenilikçi AR-GE",
+      "item1_desc": "Geleceğin teknolojilerini bugünden hayata geçiriyor, sürekli gelişimle fark yaratıyoruz.",
+      "item2_title": "Ulusal Katma Değer",
+      "item2_desc": "Yerli üretim ve inovasyonla ekosisteme güç vererek dışa bağımlılığı azaltıyoruz.",
+      "item3_title": "Küresel Vizyon",
+      "item3_desc": "Dünya standartlarında çözümler üreterek global pazarda rekabet ediyoruz.",
+      "item4_title": "Sürdürülebilir Çözümler",
+      "item4_desc": "Çevreye duyarlı, uzun vadeli ve verimliliği artıran teknolojiler geliştiriyoruz.",
+      "item5_title": "Güvenilirlik & Kalite",
+      "item5_desc": "Şeffaf süreçler ve uluslararası kalite standartlarıyla güven inşa ediyoruz.",
+      "item6_title": "İnovatif Projeler",
+      "item6_desc": "Kullanıcı deneyimini merkeze alan, yaratıcı ve çözüm odaklı projeler."
+    }
+  },
+  "Partners": {
+    "title": "GÜÇLÜ İŞ BİRLİKLERİ & REFERANSLARIMIZ"
+  },
+  "Footer": {
+    "summary": "AR-GE ve ÜR-GE alanlarında geleceğin teknolojilerine odaklanarak, ulusal ve küresel ölçekte katma değer üretiyoruz.",
+    "address_title": "Ankara Teknoloji Merkezi",
+    "col_corporate": "Kurumsal",
+    "col_legal": "Yasal",
+    "col_follow": "Takip Edin",
+    "link_home": "Anasayfa",
+    "link_about": "Hakkımızda",
+    "link_services": "Hizmetlerimiz",
+    "link_career": "Kariyer",
+    "link_contact": "İletişim",
+    "link_kvkk": "KVKK Aydınlatma",
+    "link_terms": "Kullanım Şartları",
+    "link_privacy": "Gizlilik Politikası",
+    "rights": "Tüm Hakları Saklıdır.",
+    "coded_by": "Tasarım ve Kodlama:"
+  },
+  "AboutPage": {
+    "title": "Hakkımızda",
+    "description": "Teknolojinin geleceğine yön veriyoruz.",
+    "missionVision": "Misyon & Vizyon",
+    "missionVisionDesc": "Technomay olarak, inovasyon ve mükemmeliyetçiliği temel alarak sürdürülebilir dijital çözümler üretiyoruz. Müşteri odaklı yaklaşımla, her projede en yüksek kaliteyi hedefliyoruz.",
+    "vision": "Vizyon",
+    "visionDesc": "Küresel çapta teknolojiyi şekillendiren, güvenilir bir AR-GE partneri olmak.",
+    "mission": "Misyon",
+    "missionDesc": "İnovasyon ve teknoloji alanında müşterilerimize en üst düzey hizmet sağlayarak sürdürülebilir çözümler üretmeyi amaçlıyoruz."
+  },
+  "ServicesPage": {
+    "title": "Hizmetlerimiz",
+    "description": "Teknolojik dönüşümünüzde size rehberlik ediyor, uçtan uca dijital çözümler üretiyoruz.",
+    "services": [
+      {
+        "title": "Web ve Yazılım Geliştirme",
+        "desc": "İşletmenizin ihtiyaçlarına özel, yüksek performanslı ve ölçeklenebilir web uygulamaları geliştiriyoruz. Next.js, React ve Node.js teknolojileriyle modern çözümler sunuyoruz."
+      },
+      {
+        "title": "Mobil Uygulama",
+        "desc": "iOS ve Android platformlarında çalışan, kullanıcı deneyimi (UX) odaklı native ve cross-platform mobil uygulamalar tasarlıyoruz."
+      },
+      {
+        "title": "Bulut Çözümleri",
+        "desc": "AWS, Azure ve Google Cloud altyapıları üzerinde sistemlerinizi modernize ediyor, sunucu maliyetlerinizi optimize ediyoruz."
+      },
+      {
+        "title": "Yapay Zeka & ML",
+        "desc": "Verilerinizi anlamlandıran, iş süreçlerinizi otomatize eden makine öğrenmesi ve yapay zeka modelleri eğitiyoruz."
+      },
+      {
+        "title": "Siber Güvenlik",
+        "desc": "Dijital varlıklarınızı tehditlere karşı korumak için sızma testleri ve güvenlik denetimleri gerçekleştiriyoruz."
+      },
+      {
+        "title": "IoT Sistemleri",
+        "desc": "Nesnelerin interneti teknolojisiyle cihazlarınızı birbirine bağlıyor, akıllı üretim ve takip sistemleri kuruyoruz."
+      }
+    ]
+  },
+  "CareerPage": {
+    "title": "Kariyer",
+    "description": "Geleceği şekillendiren ekibimizin bir parçası olmak ister misiniz? Yeteneklerinize değer veriyoruz.",
+    "openPositions": "Açık Pozisyonlar",
+    "notFound": "Aradığın pozisyonu bulamadın mı?",
+    "notFoundDesc": "Genel başvurularınız için CV'nizi bize her zaman gönderebilirsiniz.",
+    "sendCV": "CV Gönder",
+    "apply": "Başvur"
+  },
+  "ContactPage": {
+    "title": "İletişim",
+    "description": "Projeleriniz için bir kahve içmeye bekleriz. Bize her zaman ulaşabilirsiniz.",
+    "getInTouch": "Bize Ulaşın",
+    "description2": "Sorularınız, proje önerileriniz veya tanışmak için aşağıdaki iletişim kanallarını kullanabilirsiniz.",
+    "address": "Ofis Adresi",
+    "email": "E-Posta",
+    "phone": "Telefon",
+    "contactForm": "İletişim Formu",
+    "name": "Adınız",
+    "namePlaceholder": "Adınızı girin",
+    "emailPlaceholder": "email@ornek.com",
+    "subject": "Konu",
+    "subjectPlaceholder": "Bu ne hakkında?",
+    "message": "Mesaj",
+    "messagePlaceholder": "Mesajınız...",
+    "send": "Gönder"
+  },
+  "LegalPages": {
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "description": "Veri güvenliğiniz ve gizliliğiniz bizim için önemlidir.",
+      "content": "Technomay, kullanıcılarının gizliliğini korumayı taahhüt eder. Bu politika, sitemiz üzerinden toplanan bilgilerin nasıl kullanıldığını açıklar.",
+      "cookies": "Çerezler (Cookies)",
+      "cookiesDesc": "Deneyiminizi geliştirmek amacıyla sitemizde çerezler kullanılmaktadır."
+    },
+    "terms": {
+      "title": "Kullanım Şartları",
+      "description": "Sitemizi kullanmadan önce lütfen okuyunuz.",
+      "content": "Bu web sitesini ziyaret ederek, aşağıdaki kullanım şartlarını kabul etmiş sayılırsınız. Technomay, bu şartları dilediği zaman değiştirme hakkını saklı tutar.",
+      "copyright": "Telif Hakları",
+      "copyrightDesc": "Sitede yer alan tüm içerik, görsel ve tasarımlar Technomay'e aittir. İzinsiz kullanılamaz."
+    },
+    "kvkk": {
+      "title": "KVKK Aydınlatma Metni",
+      "description": "Kişisel verilerinizin korunması önceliğimizdir.",
+      "content": "Technomay olarak, 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") uyarınca, veri sorumlusu sıfatıyla, kişisel verilerinizi aşağıda açıklanan amaçlar kapsamında işlemekteyiz.",
+      "dataController": "Veri Sorumlusu",
+      "dataControllerDesc": "Şirketimiz, kişisel verilerinizi hukuka ve dürüstlük kurallarına uygun olarak işlemektedir.",
+      "processingPurpose": "Kişisel Verilerin İşlenme Amacı",
+      "processingPurposeDesc": "Hizmetlerimizin sunulması, yasal yükümlülüklerin yerine getirilmesi ve müşteri memnuniyetinin artırılması amacıyla verileriniz işlenmektedir."
+    }
+  }
+}

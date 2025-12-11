@@ -1,36 +1,208 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Technomay - R&D & Innovation Company Website
 
-## Getting Started
+Technomay'ın kurumsal web sitesidir. Modern teknolojiler kullanılarak geliştirilmiş, çok dilli ve duyarlı bir tasarım ile hizmet vermektedir.
 
-First, run the development server:
+## 🌟 Özellikler
+
+- **Next.js 16** - React tabanlı modern web framework
+- **TypeScript** - Tip güvenliği için
+- **Tailwind CSS** - Hızlı ve estetik UI geliştirme
+- **next-intl** - 4 dilde (TR, EN, DE, AR) tam çok dil desteği
+- **Framer Motion** - Pürüzsüz animasyonlar ve geçişler
+- **Dark Mode** - Karanlık/Açık tema desteği
+- **Responsive Design** - Tüm cihazlarda uyumlu
+- **SEO Optimized** - Arama motorları için optimize edilmiş
+
+## 📚 Desteklenen Diller
+
+- 🇹🇷 Türkçe (TR)
+- 🇬🇧 İngilizce (EN)
+- 🇩🇪 Almanca (DE)
+- 🇸🇦 Arapça (AR)
+
+## 🚀 Hızlı Başlangıç
+
+### Ön Gereksinimler
+
+- Node.js 18+ (v20 önerilir)
+- npm veya yarn
+
+### Kurulum
+
+```bash
+# Proje klonla
+git clone <repository-url>
+cd technomay
+
+# Bağımlılıkları yükle
+npm install
+# veya
+yarn install
+```
+
+### Geliştirme Sunucusunu Başlat
 
 ```bash
 npm run dev
-# or
+# veya
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tarayıcıda açın: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Proje Yapısı
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+technomay/
+├── app/
+│   ├── [locale]/              # Dil dinamik segmenti
+│   │   ├── layout.tsx         # Ana layout
+│   │   ├── page.tsx           # Ana sayfa
+│   │   └── [page]/            # Sayfalar: hakkimizda, hizmetler, vb.
+│   └── not-found.tsx
+├── components/                # React bileşenleri
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Features.tsx
+│   ├── Partners.tsx
+│   ├── Footer.tsx
+│   └── ...
+├── messages/                  # Çeviri dosyaları
+│   ├── en.json
+│   ├── tr.json
+│   ├── de.json
+│   └── ar.json
+├── i18n/
+│   └── request.ts            # i18n konfigürasyonu
+├── public/                   # Statik dosyalar
+└── middleware.ts             # Locale middleware
+```
 
-## Learn More
+## 🎨 Sayfa Yapısı
 
-To learn more about Next.js, take a look at the following resources:
+### Ana Sayfada Bulunan Bölümler
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Navbar** - Navigasyon ve dil seçici
+2. **Hero** - Başlık ve CTA butonları (Animasyonlu arka plan)
+3. **About** - Şirket hakkında (Vizyon & Misyon)
+4. **Features** - Sunulan hizmetler (6 özellik kartı)
+5. **Partners** - İş ortakları (Marquee animasyonu)
+6. **Footer** - Alt bilgi ve linkler
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Alt Sayfalar
 
-## Deploy on Vercel
+- `/hakkimizda` - Kurumsal bilgiler
+- `/hizmetler` - Sunulan hizmetlerin detayı (6 hizmet)
+- `/kariyer` - Kariyer fırsatları
+- `/iletisim` - İletişim formu (İnteraktif)
+- `/kvkk` - GDPR/KVKK aydınlatma
+- `/gizlilik` - Gizlilik politikası
+- `/sartlar` - Kullanım şartları
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔧 Teknolojiler
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Teknoloji | Versiyon | Amaç |
+|-----------|----------|------|
+| Next.js | 16.0.8 | Framework |
+| React | 19 | UI Library |
+| TypeScript | 5 | Type Safety |
+| Tailwind CSS | 3.4 | Styling |
+| Framer Motion | Latest | Animations |
+| next-intl | 4.5.8 | Internationalization |
+| React Icons | Latest | Icons |
+
+## 📖 Çeviriler Nasıl Çalışır?
+
+Tüm çeviriler `/messages` klasöründe JSON dosyaları olarak saklanır. Bileşenlerde kullanmak için:
+
+```typescript
+import { useTranslations } from 'next-intl';
+
+export default function Component() {
+  const t = useTranslations('SectionName');
+  
+  return <h1>{t('key')}</h1>;
+}
+```
+
+### Çeviri Dosya Yapısı
+
+```json
+{
+  "SectionName": {
+    "key1": "Değer 1",
+    "key2": "Değer 2",
+    "nested": {
+      "key3": "Değer 3"
+    }
+  }
+}
+```
+
+## 🌐 URL Yapısı
+
+- `/` → Varsayılan locale (TR)
+- `/en` → İngilizce
+- `/de` → Almanca
+- `/ar` → Arapça
+- `/tr/hakkimizda` → Türkçe Hakkımızda sayfası
+- `/en/about` → İngilizce About sayfası
+
+## 🎯 Komutlar
+
+### Development
+
+```bash
+npm run dev              # Geliştirme sunucusunu başlat
+npm run dev -- --open   # Tarayıcıda otomatik aç
+```
+
+### Build
+
+```bash
+npm run build            # Production build oluştur
+npm run start            # Build'i başlat
+npm run lint             # ESLint kontrolü
+```
+
+## 🚀 Vercel'e Deploy
+
+### 1. Vercel CLI ile
+
+```bash
+npm install -g vercel
+vercel
+```
+
+### 2. GitHub Push ile
+
+Vercel'i GitHub'a bağlayın ve otomatik deploy aktif hale getirin.
+
+### 3. Ortam Değişkenleri
+
+`.env.local` dosyası oluşturun (gerekirse):
+
+```env
+# Gerekli değişkenler buraya ekleyin
+```
+## 🐛 Sorun Bildir
+
+Bir bug bulduysanız, lütfen vr0cksdev@gmail.com adresine mail atın
+
+## 📜 Lisans
+
+© 2025 Technomay. Tüm hakları saklıdır.
+
+## 📧 İletişim
+
+- **E-posta:** vr0cksdev@gmail.com
+- **Web:** https://yigit-canli.vercel.app/en
+- **Adres:** Ankara Teknoloji Merkezi, Ankara, Türkiye
+- **Telefon:** +90 (312) XXX XXXX
+
+## 🙏 Teşekkürler
+---
+
+**Son Güncelleme:** Aralık 2025
+**Versiyon:** 1.0.0
